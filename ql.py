@@ -14,7 +14,7 @@ def countv(file1):
     f1=f.read()
     global cnt
     cnt=0
-    for i in f1:
+    for i in f1.lower():
         if i in v:
             cnt=cnt+1
     #click.echo("the vowel count is :{}".format(cnt))

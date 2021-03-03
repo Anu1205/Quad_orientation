@@ -16,7 +16,7 @@ if __name__ == '__main__':
     #c=0
     #def vc(t):
      #   global c
-     #   for i in t:
+     #   for i in t.lower():
       #       if i in a:
        #          c=c+1
         #print(c)
